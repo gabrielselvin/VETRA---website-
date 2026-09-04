@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offline — VETRA</title>
+<meta name="description" content="You are currently offline. Reconnect to continue browsing VETRA.">
+<link rel="icon" type="image/png" href="assets/vetra-logo-dark.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="status-page">
+    <img src="assets/vetra-logo-dark.png" alt="VETRA" class="mark">
+    <span class="code" style="font-size:clamp(2.4rem,7vw,4rem);">You're offline</span>
+    <h1>No internet connection.</h1>
+    <p>VETRA needs a connection to load. Check your network and try again — your place in the page will be right where you left it.</p>
+    <button class="btn btn-primary" onclick="window.location.reload()">Try again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
